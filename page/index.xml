@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Pages on 鹏哥哥</title>
-        <link>https://example.com/page/</link>
+        <link>https://penggege18.github.io/hugo-blog-pages/page/</link>
         <description>Recent content in Pages on 鹏哥哥</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://penggege18.github.io/hugo-blog-pages/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>归档</title>
-        <link>https://example.com/archives/</link>
+        <link>https://penggege18.github.io/hugo-blog-pages/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/archives/</guid>
+        <guid>https://penggege18.github.io/hugo-blog-pages/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>关于</title>
-        <link>https://example.com/%E5%85%B3%E4%BA%8E/</link>
+        <link>https://penggege18.github.io/hugo-blog-pages/%E5%85%B3%E4%BA%8E/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/%E5%85%B3%E4%BA%8E/</guid>
+        <guid>https://penggege18.github.io/hugo-blog-pages/%E5%85%B3%E4%BA%8E/</guid>
         <description>&lt;p&gt;This is a test page for i18n support.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>搜索</title>
-        <link>https://example.com/search/</link>
+        <link>https://penggege18.github.io/hugo-blog-pages/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/search/</guid>
+        <guid>https://penggege18.github.io/hugo-blog-pages/search/</guid>
         <description></description>
         </item>
         <item>
         <title>友链</title>
-        <link>https://example.com/%E5%8F%8B%E9%93%BE/</link>
+        <link>https://penggege18.github.io/hugo-blog-pages/%E5%8F%8B%E9%93%BE/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/%E5%8F%8B%E9%93%BE/</guid>
+        <guid>https://penggege18.github.io/hugo-blog-pages/%E5%8F%8B%E9%93%BE/</guid>
         <description></description>
         </item>
         
