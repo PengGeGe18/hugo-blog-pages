@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Tags on 鹏哥哥</title>
-        <link>https://penggege18.github.io/hugo-blog-pages/tags/</link>
+        <link>https://blog.230120.xyz/tags/</link>
         <description>Recent content in Tags on 鹏哥哥</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language><atom:link href="https://penggege18.github.io/hugo-blog-pages/tags/index.xml" rel="self" type="application/rss+xml" />
+        <language>zh-cn</language><atom:link href="https://blog.230120.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>

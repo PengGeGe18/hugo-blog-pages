@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>鹏哥哥</title>
-        <link>https://penggege18.github.io/hugo-blog-pages/</link>
+        <link>https://blog.230120.xyz/</link>
         <description>Recent content on 鹏哥哥</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Tue, 26 Nov 2024 22:43:24 +0800</lastBuildDate><atom:link href="https://penggege18.github.io/hugo-blog-pages/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 26 Nov 2024 22:43:24 +0800</lastBuildDate><atom:link href="https://blog.230120.xyz/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>MyFirstBlog3</title>
-        <link>https://penggege18.github.io/hugo-blog-pages/p/myfirstblog3/</link>
+        <link>https://blog.230120.xyz/p/myfirstblog3/</link>
         <pubDate>Tue, 26 Nov 2024 22:43:24 +0800</pubDate>
         
-        <guid>https://penggege18.github.io/hugo-blog-pages/p/myfirstblog3/</guid>
+        <guid>https://blog.230120.xyz/p/myfirstblog3/</guid>
         <description></description>
         </item>
         <item>
         <title>MyFirstBlog</title>
-        <link>https://penggege18.github.io/hugo-blog-pages/p/myfirstblog/</link>
+        <link>https://blog.230120.xyz/p/myfirstblog/</link>
         <pubDate>Tue, 26 Nov 2024 17:40:16 +0800</pubDate>
         
-        <guid>https://penggege18.github.io/hugo-blog-pages/p/myfirstblog/</guid>
+        <guid>https://blog.230120.xyz/p/myfirstblog/</guid>
         <description></description>
         </item>
         <item>
         <title>归档</title>
-        <link>https://penggege18.github.io/hugo-blog-pages/archives/</link>
+        <link>https://blog.230120.xyz/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://penggege18.github.io/hugo-blog-pages/archives/</guid>
+        <guid>https://blog.230120.xyz/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>关于</title>
-        <link>https://penggege18.github.io/hugo-blog-pages/%E5%85%B3%E4%BA%8E/</link>
+        <link>https://blog.230120.xyz/%E5%85%B3%E4%BA%8E/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://penggege18.github.io/hugo-blog-pages/%E5%85%B3%E4%BA%8E/</guid>
+        <guid>https://blog.230120.xyz/%E5%85%B3%E4%BA%8E/</guid>
         <description>&lt;p&gt;This is a test page for i18n support.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>搜索</title>
-        <link>https://penggege18.github.io/hugo-blog-pages/search/</link>
+        <link>https://blog.230120.xyz/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://penggege18.github.io/hugo-blog-pages/search/</guid>
+        <guid>https://blog.230120.xyz/search/</guid>
         <description></description>
         </item>
         <item>
         <title>友链</title>
-        <link>https://penggege18.github.io/hugo-blog-pages/%E5%8F%8B%E9%93%BE/</link>
+        <link>https://blog.230120.xyz/%E5%8F%8B%E9%93%BE/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://penggege18.github.io/hugo-blog-pages/%E5%8F%8B%E9%93%BE/</guid>
+        <guid>https://blog.230120.xyz/%E5%8F%8B%E9%93%BE/</guid>
         <description></description>
         </item>
         
