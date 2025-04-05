@@ -1,0 +1,244 @@
+{
+    "name": "广告优化",
+    "seconds": 1800,
+    "day_report_format": "channel,cost,pay_money,roi,,register,首日留存,pay_person,pay_money",
+    "list_config": {
+        "request": {
+            "url": "http://localhost:30128/test/list.json?date={{.Today}}",
+            "method": "GET",
+            "proxy": "",
+            "header": {
+                "Content-Type": "application/json",
+                "Cookie": "",
+                "Referer": "http://localhost:30128/",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+            },
+            "body": {
+                "body": "2024-05-01"
+            }
+        },
+        "fields": [
+            {
+                "name": "渠道",
+                "field": "channel",
+                "path": "name",
+                "equation": ""
+            },
+            {
+                "name": "注册人数",
+                "field": "register",
+                "path": "",
+                "equation": ""
+            },
+            {
+                "name": "付费人数",
+                "field": "pay_person",
+                "path": "",
+                "equation": ""
+            },
+            {
+                "name": "付费金额",
+                "field": "pay_money",
+                "path": "",
+                "equation": ""
+            }
+        ],
+        "response_list_path": "data.rows",
+        "unique_field": "channel"
+    },
+    "single_config": {
+        "OPPO-01": {
+            "request": {
+                "url": "http://localhost:30128/test/oppo.json?date={{.Today}}",
+                "method": "GET",
+                "proxy": "",
+                "header": {
+                    "Content-Type": "application/json",
+                    "Referer": "https://e.oppomobile.com/markets/report/subaccount/ads",
+                    "Tk": "",
+                    "User-Agent": "",
+                    "cookie": ""
+                },
+                "body": {
+                    "ascDesc": "DESC",
+                    "beginTime": "{{.TodaySimple}}",
+                    "endTime": "{{.TodaySimple}}",
+                    "orderByColumns": "ftime",
+                    "page": "1",
+                    "pageCount": "20"
+                }
+            },
+            "fields": [
+                {
+                    "name": "实际消耗",
+                    "field": "cost",
+                    "path": "data.cost",
+                    "equation": "cost/100"
+                }
+            ]
+        },
+        "VIVO-01": {
+            "request": {
+                "url": "http://localhost:30128/test/vivo.json?date={{.Today}}",
+                "method": "GET",
+                "proxy": "",
+                "header": {
+                    "Referer": "https://ad.vivo.com.cn/marketing/home",
+                    "User-Agent": "",
+                    "X-Requested-With": "XMLHttpRequest",
+                    "cookie": ""
+                },
+                "body": {
+
+                }
+            },
+            "fields": [
+                {
+                    "name": "实际消耗",
+                    "field": "cost",
+                    "path": "data.spent",
+                    "equation": "cost*100/100"
+                }
+            ]
+        },
+        "小米": {
+            "request": {
+                "url": "http://e.mi.com/v4/data/analysis/query?",
+                "method": "POST",
+                "proxy": "",
+                "header": {
+                    "content-type": "application/json",
+                    "cookie": ""
+                },
+                "body": {
+                    "jsonContent": ""
+                }
+            },
+            "fields": [
+                {
+                    "name": "cost",
+                    "field": "cost",
+                    "path": "result.summary.current.accurateCost",
+                    "equation": "cost/1"
+                }
+            ]
+        },
+        "巨量引擎-01": {
+            "request": {
+                "url": "http://localhost:30128/test/oceanengine.json?date={{.Today}}",
+                "method": "GET",
+                "proxy": "",
+                "header": {
+                    "Content-Type": "application/json",
+                    "Referer": "https://business.oceanengine.com/site/account-manage/ad/bidding/superior/account",
+                    "User-Agent": "",
+                    "X-Csrftoken": "",
+                    "cookie": ""
+                },
+                "body": {
+                    "jsonContent": ""
+                }
+            },
+            "fields": [
+                {
+                    "name": "实际消耗",
+                    "field": "cost",
+                    "path": "data.total_metrics.stat_cost",
+                    "equation": "cost*100/100"
+                }
+            ]
+        },
+        "巨量引擎-02": {
+            "request": {
+                "url": "http://localhost:30128/test/oceanengine.json?date={{.Today}}",
+                "method": "GET",
+                "proxy": "",
+                "header": {
+                    "Content-Type": "application/json",
+                    "Referer": "https://business.oceanengine.com/site/account-manage/ad/bidding/superior/account",
+                    "User-Agent": "",
+                    "X-Csrftoken": "",
+                    "cookie": ""
+                },
+                "body": {
+                    "jsonContent": ""
+                }
+            },
+            "fields": [
+                {
+                    "name": "实际消耗",
+                    "field": "cost",
+                    "path": "data.total_metrics.stat_cost",
+                    "equation": "cost*100/100"
+                }
+            ]
+        },
+        "快手-01": {
+            "request": {
+                "url": "http://localhost:30128/test/kuaishou.json?date={{.Today}}",
+                "method": "GET",
+                "proxy": "",
+                "header": {
+                    "Content-Type": "application/json",
+                    "Referer": "",
+                    "User-Agent": "",
+                    "cookie": ""
+                },
+                "body": {
+                    "jsonContent": ""
+                }
+            },
+            "fields": [
+                {
+                    "name": "实际消耗",
+                    "field": "cost",
+                    "path": "data.sum.totalCharge",
+                    "equation": "cost/1000"
+                }
+            ]
+        },
+        "百度-01": {
+            "request": {
+                "url": "http://localhost:30128/test/baidu.json?date={{.Today}}",
+                "method": "POST",
+                "proxy": "",
+                "header": {
+                    "Content-Type": "application/x-www-form-urlencoded",
+                    "Referer": "https://cc.baidu.com/homepage",
+                    "User-Agent": "",
+                    "cookie": ""
+                },
+                "body": {
+                    "optid": "",
+                    "params": "",
+                    "path": "marsPro/GET/ReportDataService/getCompareReportData",
+                    "reqid": "",
+                    "token": "",
+                    "userid": ""
+                }
+            },
+            "fields": [
+                {
+                    "name": "实际消耗",
+                    "field": "cost",
+                    "path": "data.summary.sourceInfo.cost",
+                    "equation": "cost/1"
+                }
+            ]
+        }
+    },
+    "calculate_fields": [
+        {
+            "name": "ROI",
+            "field": "roi",
+            "path": "",
+            "equation": "pay_money/cost"
+        },
+        {
+            "name": "CPI",
+            "field": "cpi",
+            "path": "",
+            "equation": "cost/register"
+        }
+    ]
+}
